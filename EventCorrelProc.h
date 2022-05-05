@@ -347,6 +347,18 @@ class EventCorrelProc : public TGo4EventProcessor {
       TH2 *hA_FRS_Z1Z2_X2AoQ_GeE1_GeE2[MAX_FRS_GATE];
       TH2 *hA_FRS_Z1Z2_X4AoQ_GeE1_GeE2[MAX_FRS_GATE];
 
+      TH2 *hA_FRS_ZAoQ_GeEvsT_all_mhtdc[10];
+      TH1 *hA_FRS_ZAoQ_GeE_mhtdc[10][MAX_FRS_GATE];
+      TH1 *hA_FRS_Z1Z2_X2AoQ_GeE_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_Z1Z2_X2AoQ_GeEvsT_mhtdc[10][MAX_FRS_GATE];
+      TH1 *hA_FRS_Z1Z2_X4AoQ_GeE_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_Z1Z2_X4AoQ_GeEvsT_mhtdc[10][MAX_FRS_GATE];
+     // TH2 *hA_FRS_GeEvsT;
+      TH2 *hA_FRS_ZAoQ_GeEvs_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_ZAoQ_GeE1_GeE2_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_Z1Z2_X2AoQ_GeE1_GeE2_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_Z1Z2_X4AoQ_GeE1_GeE2_mhtdc[10][MAX_FRS_GATE];
+
       TH1 *hA_FRS_ZAoQ_GeE_LongIso;
       TH2 *hA_FRS_GeEvsT_LongIsoGated;
       TH2 *hA_FRS_GeE1vsGeE2_LongIsoGated;
