@@ -350,7 +350,7 @@ class EventCorrelProc : public TGo4EventProcessor {
       // cej commments
       TH1 *hA_FRS_Z1Z2_GeE_mhtdc[10][MAX_FRS_GATE];
       TH2 *hA_FRS_Z1Z2_GeEvsT_mhtdc[10][MAX_FRS_GATE];
-      THS *hA_FRS_Z1Z2_GeE1_GeE2_mhtdc[10][MAX_FRS_GATE];
+      TH2 *hA_FRS_Z1Z2_GeE1_GeE2_mhtdc[10][MAX_FRS_GATE];
 
       TH2 *hA_FRS_ZAoQ_GeEvsT_all_mhtdc[10]; // done
       TH1 *hA_FRS_ZAoQ_GeE_mhtdc[10][MAX_FRS_GATE]; // done
